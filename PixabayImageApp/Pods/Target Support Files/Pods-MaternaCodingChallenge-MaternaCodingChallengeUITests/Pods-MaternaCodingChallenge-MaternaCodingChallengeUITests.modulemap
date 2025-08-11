@@ -1,0 +1,6 @@
+framework module Pods_MaternaCodingChallenge_MaternaCodingChallengeUITests {
+  umbrella header "Pods-MaternaCodingChallenge-MaternaCodingChallengeUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

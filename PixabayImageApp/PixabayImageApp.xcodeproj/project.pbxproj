@@ -1,0 +1,768 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		06D4D5B9BB352936063DD04C /* libPods-MaternaCodingChallengeTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A57365439FF26C430BAF0AD /* libPods-MaternaCodingChallengeTests.a */; };
+		7DEDFDBA68018136D8A42B09 /* libPods-MaternaCodingChallenge.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 174940BF497AF06985374058 /* libPods-MaternaCodingChallenge.a */; };
+		A27773D12D7206762D042F8A /* libPods-MaternaCodingChallenge-MaternaCodingChallengeUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F5C73A1CE478C97C3277872 /* libPods-MaternaCodingChallenge-MaternaCodingChallengeUITests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		05C918122E3B684C00F02AD3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 05C917EB2E3B684A00F02AD3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 05C917F22E3B684A00F02AD3;
+			remoteInfo = MaternaCodingChallenge;
+		};
+		05C9181C2E3B684C00F02AD3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 05C917EB2E3B684A00F02AD3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 05C917F22E3B684A00F02AD3;
+			remoteInfo = MaternaCodingChallenge;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05C917F32E3B684A00F02AD3 /* PixabayImageApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PixabayImageApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		05C918112E3B684C00F02AD3 /* PixabayImageAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PixabayImageAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		05C9181B2E3B684C00F02AD3 /* PixabayImageAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PixabayImageAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		08C662E058ABF3BE11499E7B /* Pods-MaternaCodingChallenge-MaternaCodingChallengeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MaternaCodingChallenge-MaternaCodingChallengeUITests.debug.xcconfig"; path = "Target Support Files/Pods-MaternaCodingChallenge-MaternaCodingChallengeUITests/Pods-MaternaCodingChallenge-MaternaCodingChallengeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		174940BF497AF06985374058 /* libPods-MaternaCodingChallenge.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MaternaCodingChallenge.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		23DC29A3EDC96165AFFA1611 /* Pods-MaternaCodingChallenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MaternaCodingChallenge.debug.xcconfig"; path = "Target Support Files/Pods-MaternaCodingChallenge/Pods-MaternaCodingChallenge.debug.xcconfig"; sourceTree = "<group>"; };
+		38EDF80751E302C6611B4DDE /* Pods-MaternaCodingChallengeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MaternaCodingChallengeTests.debug.xcconfig"; path = "Target Support Files/Pods-MaternaCodingChallengeTests/Pods-MaternaCodingChallengeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3A57365439FF26C430BAF0AD /* libPods-MaternaCodingChallengeTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MaternaCodingChallengeTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F5C73A1CE478C97C3277872 /* libPods-MaternaCodingChallenge-MaternaCodingChallengeUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MaternaCodingChallenge-MaternaCodingChallengeUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A3A144D18F1044D62082964 /* Pods-MaternaCodingChallenge-MaternaCodingChallengeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MaternaCodingChallenge-MaternaCodingChallengeUITests.release.xcconfig"; path = "Target Support Files/Pods-MaternaCodingChallenge-MaternaCodingChallengeUITests/Pods-MaternaCodingChallenge-MaternaCodingChallengeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A829B87C8F732C041CECCA97 /* Pods-MaternaCodingChallenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MaternaCodingChallenge.release.xcconfig"; path = "Target Support Files/Pods-MaternaCodingChallenge/Pods-MaternaCodingChallenge.release.xcconfig"; sourceTree = "<group>"; };
+		F1018AADF4E94FE3A4262361 /* Pods-MaternaCodingChallengeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MaternaCodingChallengeTests.release.xcconfig"; path = "Target Support Files/Pods-MaternaCodingChallengeTests/Pods-MaternaCodingChallengeTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		0545F5732E3C997D00EA5AC6 /* Exceptions for "PixabayImageApp" folder in "PixabayImageApp" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"/Localized: Resources/LaunchScreen.storyboard",
+				"/Localized: Views/Main.storyboard",
+				AppDelegate.m,
+				Controllers/ImageDetailViewController.m,
+				Controllers/OptionalDetailViewController.m,
+				Controllers/PixabayImageCollectionViewController.m,
+				CoreData/PixabayImageApp.xcdatamodeld,
+				main.m,
+				Model/PixabayImageModel.m,
+				Networking/PixabayAPIService.m,
+				Networking/PixabayImageRepository.m,
+				Persistence/PersistenceService.m,
+				Resources/Assets.xcassets,
+				SceneDelegate.m,
+				Views/ImageCollectionViewCell.m,
+			);
+			target = 05C917F22E3B684A00F02AD3 /* PixabayImageApp */;
+		};
+		0545F5752E3C997D00EA5AC6 /* Exceptions for "PixabayImageApp" folder in "PixabayImageAppTests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"/Localized: Resources/LaunchScreen.storyboard",
+				"/Localized: Views/Main.storyboard",
+				AppDelegate.m,
+				Controllers/ImageDetailViewController.m,
+				Controllers/OptionalDetailViewController.m,
+				Controllers/PixabayImageCollectionViewController.m,
+				CoreData/PixabayImageApp.xcdatamodeld,
+				Info.plist,
+				main.m,
+				Model/PixabayImageModel.m,
+				Networking/PixabayAPIService.m,
+				Networking/PixabayImageRepository.m,
+				Persistence/PersistenceService.m,
+				Resources/Assets.xcassets,
+				SceneDelegate.m,
+				Views/ImageCollectionViewCell.m,
+			);
+			target = 05C918102E3B684C00F02AD3 /* PixabayImageAppTests */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		0545F5632E3C997D00EA5AC6 /* PixabayImageApp */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				0545F5732E3C997D00EA5AC6 /* Exceptions for "PixabayImageApp" folder in "PixabayImageApp" target */,
+				0545F5752E3C997D00EA5AC6 /* Exceptions for "PixabayImageApp" folder in "PixabayImageAppTests" target */,
+			);
+			path = PixabayImageApp;
+			sourceTree = "<group>";
+		};
+		05C918142E3B684C00F02AD3 /* PixabayImageAppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = PixabayImageAppTests;
+			sourceTree = "<group>";
+		};
+		05C9181E2E3B684C00F02AD3 /* PixabayImageAppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = PixabayImageAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		05C917F02E3B684A00F02AD3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DEDFDBA68018136D8A42B09 /* libPods-MaternaCodingChallenge.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05C9180E2E3B684C00F02AD3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06D4D5B9BB352936063DD04C /* libPods-MaternaCodingChallengeTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05C918182E3B684C00F02AD3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A27773D12D7206762D042F8A /* libPods-MaternaCodingChallenge-MaternaCodingChallengeUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05C917EA2E3B684A00F02AD3 = {
+			isa = PBXGroup;
+			children = (
+				0545F5632E3C997D00EA5AC6 /* PixabayImageApp */,
+				05C918142E3B684C00F02AD3 /* PixabayImageAppTests */,
+				05C9181E2E3B684C00F02AD3 /* PixabayImageAppUITests */,
+				05C917F42E3B684A00F02AD3 /* Products */,
+				BB9D4C9F703AD8C3E37EC21F /* Pods */,
+				45A4136715803B4CEFE071FA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		05C917F42E3B684A00F02AD3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				05C917F32E3B684A00F02AD3 /* PixabayImageApp.app */,
+				05C918112E3B684C00F02AD3 /* PixabayImageAppTests.xctest */,
+				05C9181B2E3B684C00F02AD3 /* PixabayImageAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		45A4136715803B4CEFE071FA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				174940BF497AF06985374058 /* libPods-MaternaCodingChallenge.a */,
+				7F5C73A1CE478C97C3277872 /* libPods-MaternaCodingChallenge-MaternaCodingChallengeUITests.a */,
+				3A57365439FF26C430BAF0AD /* libPods-MaternaCodingChallengeTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BB9D4C9F703AD8C3E37EC21F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				23DC29A3EDC96165AFFA1611 /* Pods-MaternaCodingChallenge.debug.xcconfig */,
+				A829B87C8F732C041CECCA97 /* Pods-MaternaCodingChallenge.release.xcconfig */,
+				08C662E058ABF3BE11499E7B /* Pods-MaternaCodingChallenge-MaternaCodingChallengeUITests.debug.xcconfig */,
+				8A3A144D18F1044D62082964 /* Pods-MaternaCodingChallenge-MaternaCodingChallengeUITests.release.xcconfig */,
+				38EDF80751E302C6611B4DDE /* Pods-MaternaCodingChallengeTests.debug.xcconfig */,
+				F1018AADF4E94FE3A4262361 /* Pods-MaternaCodingChallengeTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		05C917F22E3B684A00F02AD3 /* PixabayImageApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05C918242E3B684C00F02AD3 /* Build configuration list for PBXNativeTarget "PixabayImageApp" */;
+			buildPhases = (
+				D4710D04AF73D4292892F814 /* [CP] Check Pods Manifest.lock */,
+				05C917EF2E3B684A00F02AD3 /* Sources */,
+				05C917F02E3B684A00F02AD3 /* Frameworks */,
+				05C917F12E3B684A00F02AD3 /* Resources */,
+				E5936AD33044A65E45E120DE /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PixabayImageApp;
+			productName = MaternaCodingChallenge;
+			productReference = 05C917F32E3B684A00F02AD3 /* PixabayImageApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		05C918102E3B684C00F02AD3 /* PixabayImageAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05C918292E3B684C00F02AD3 /* Build configuration list for PBXNativeTarget "PixabayImageAppTests" */;
+			buildPhases = (
+				ADF06929130A84CF2E0E2978 /* [CP] Check Pods Manifest.lock */,
+				05C9180D2E3B684C00F02AD3 /* Sources */,
+				05C9180E2E3B684C00F02AD3 /* Frameworks */,
+				05C9180F2E3B684C00F02AD3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				05C918132E3B684C00F02AD3 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				0545F5632E3C997D00EA5AC6 /* PixabayImageApp */,
+				05C918142E3B684C00F02AD3 /* PixabayImageAppTests */,
+			);
+			name = PixabayImageAppTests;
+			productName = MaternaCodingChallengeTests;
+			productReference = 05C918112E3B684C00F02AD3 /* PixabayImageAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		05C9181A2E3B684C00F02AD3 /* PixabayImageAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05C9182C2E3B684C00F02AD3 /* Build configuration list for PBXNativeTarget "PixabayImageAppUITests" */;
+			buildPhases = (
+				E38D213322FC859F35553F0C /* [CP] Check Pods Manifest.lock */,
+				05C918172E3B684C00F02AD3 /* Sources */,
+				05C918182E3B684C00F02AD3 /* Frameworks */,
+				05C918192E3B684C00F02AD3 /* Resources */,
+				EEDCEAE05EE454F873193A31 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				05C9181D2E3B684C00F02AD3 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				05C9181E2E3B684C00F02AD3 /* PixabayImageAppUITests */,
+			);
+			name = PixabayImageAppUITests;
+			productName = MaternaCodingChallengeUITests;
+			productReference = 05C9181B2E3B684C00F02AD3 /* PixabayImageAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		05C917EB2E3B684A00F02AD3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					05C917F22E3B684A00F02AD3 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					05C918102E3B684C00F02AD3 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 05C917F22E3B684A00F02AD3;
+					};
+					05C9181A2E3B684C00F02AD3 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 05C917F22E3B684A00F02AD3;
+					};
+				};
+			};
+			buildConfigurationList = 05C917EE2E3B684A00F02AD3 /* Build configuration list for PBXProject "PixabayImageApp" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 05C917EA2E3B684A00F02AD3;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 05C917F42E3B684A00F02AD3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				05C917F22E3B684A00F02AD3 /* PixabayImageApp */,
+				05C918102E3B684C00F02AD3 /* PixabayImageAppTests */,
+				05C9181A2E3B684C00F02AD3 /* PixabayImageAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		05C917F12E3B684A00F02AD3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05C9180F2E3B684C00F02AD3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05C918192E3B684C00F02AD3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		ADF06929130A84CF2E0E2978 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MaternaCodingChallengeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D4710D04AF73D4292892F814 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MaternaCodingChallenge-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E38D213322FC859F35553F0C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MaternaCodingChallenge-MaternaCodingChallengeUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E5936AD33044A65E45E120DE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MaternaCodingChallenge/Pods-MaternaCodingChallenge-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MaternaCodingChallenge/Pods-MaternaCodingChallenge-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MaternaCodingChallenge/Pods-MaternaCodingChallenge-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EEDCEAE05EE454F873193A31 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MaternaCodingChallenge-MaternaCodingChallengeUITests/Pods-MaternaCodingChallenge-MaternaCodingChallengeUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MaternaCodingChallenge-MaternaCodingChallengeUITests/Pods-MaternaCodingChallenge-MaternaCodingChallengeUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MaternaCodingChallenge-MaternaCodingChallengeUITests/Pods-MaternaCodingChallenge-MaternaCodingChallengeUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		05C917EF2E3B684A00F02AD3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05C9180D2E3B684C00F02AD3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05C918172E3B684C00F02AD3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		05C918132E3B684C00F02AD3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 05C917F22E3B684A00F02AD3 /* PixabayImageApp */;
+			targetProxy = 05C918122E3B684C00F02AD3 /* PBXContainerItemProxy */;
+		};
+		05C9181D2E3B684C00F02AD3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 05C917F22E3B684A00F02AD3 /* PixabayImageApp */;
+			targetProxy = 05C9181C2E3B684C00F02AD3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		05C918252E3B684C00F02AD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23DC29A3EDC96165AFFA1611 /* Pods-MaternaCodingChallenge.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5AM38HDB97;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PixabayImageApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vijayesha.PixabayImageApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		05C918262E3B684C00F02AD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A829B87C8F732C041CECCA97 /* Pods-MaternaCodingChallenge.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5AM38HDB97;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PixabayImageApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vijayesha.PixabayImageApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		05C918272E3B684C00F02AD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 5AM38HDB97;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		05C918282E3B684C00F02AD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 5AM38HDB97;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		05C9182A2E3B684C00F02AD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38EDF80751E302C6611B4DDE /* Pods-MaternaCodingChallengeTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5AM38HDB97;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vijayesha.PixabayImageAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PixabayImageApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PixabayImageApp";
+			};
+			name = Debug;
+		};
+		05C9182B2E3B684C00F02AD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1018AADF4E94FE3A4262361 /* Pods-MaternaCodingChallengeTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5AM38HDB97;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vijayesha.PixabayImageAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PixabayImageApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PixabayImageApp";
+			};
+			name = Release;
+		};
+		05C9182D2E3B684C00F02AD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08C662E058ABF3BE11499E7B /* Pods-MaternaCodingChallenge-MaternaCodingChallengeUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5AM38HDB97;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vijayesha.PixabayImageAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PixabayImageApp;
+			};
+			name = Debug;
+		};
+		05C9182E2E3B684C00F02AD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A3A144D18F1044D62082964 /* Pods-MaternaCodingChallenge-MaternaCodingChallengeUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5AM38HDB97;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vijayesha.PixabayImageAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PixabayImageApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		05C917EE2E3B684A00F02AD3 /* Build configuration list for PBXProject "PixabayImageApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05C918272E3B684C00F02AD3 /* Debug */,
+				05C918282E3B684C00F02AD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05C918242E3B684C00F02AD3 /* Build configuration list for PBXNativeTarget "PixabayImageApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05C918252E3B684C00F02AD3 /* Debug */,
+				05C918262E3B684C00F02AD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05C918292E3B684C00F02AD3 /* Build configuration list for PBXNativeTarget "PixabayImageAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05C9182A2E3B684C00F02AD3 /* Debug */,
+				05C9182B2E3B684C00F02AD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05C9182C2E3B684C00F02AD3 /* Build configuration list for PBXNativeTarget "PixabayImageAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05C9182D2E3B684C00F02AD3 /* Debug */,
+				05C9182E2E3B684C00F02AD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 05C917EB2E3B684A00F02AD3 /* Project object */;
+}
